@@ -1,5 +1,5 @@
 """
-WSGI config for cyberMVP project.
+WSGI config for tpsra project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberMVP.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tpsra.settings')
 
 application = get_wsgi_application()
